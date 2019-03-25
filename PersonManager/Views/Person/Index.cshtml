@@ -1,0 +1,16 @@
+﻿@model PersonManager.Models.Person
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Person/_PageLayout.cshtml";
+}
+
+<h2>Person Manager</h2>
+<br/>
+<hr class="glyphicon-resize-horizontal"/>
+<div class="container">
+    
+@Html.Partial("PersonFormPartialView")
+
+@Html.Partial("PersonTablePartialView")
+
+</div>

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Inube Solutions</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div class="container">
+        <h1 class="alert alert-info">Inube Solutions - @ViewBag.Title</h1>
+
+        <div class="row">
+            <div class="col-md-2">
+                <!--sidebar with navigation options-->
+            </div>
+
+            <div class="col-md-8">
+                <!--main/variable content area-->
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    <script type="text/javascript" src="@Url.Content("~/Scripts/UserdefinedSite.js")"></script>
+</body>
+</html>

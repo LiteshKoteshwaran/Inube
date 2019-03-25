@@ -1,0 +1,39 @@
+﻿@model PersonManager.Models.Person
+<form method="post">
+    
+    @*@Html.HiddenFor(X => X.Id)*@
+
+    <div class="form-control">
+        <label class="col-md-2" for="FirstName"> FirstName </label>
+        <div class="col-md-7">
+            @Html.TextBoxFor(X => X.FirstName)
+
+        </div>
+    </div>
+        
+    <div class="form-control">
+        <label class="col-md-2" for="LastName"> LastName </label>
+        <div class="col-md-7">
+            @Html.TextBoxFor(X => X.LastName)
+        </div>
+    </div>
+        
+    <div class="form-control">
+        <label class="col-md-2" for="Email"> Email</label>
+        <div class="col-md-7">
+            @Html.TextBoxFor(X => X.Email)
+        </div>
+    </div>
+        
+    <div class="form-control">
+        <label class="col-md-2" for="PhoneNo"> PhoneNo </label>
+        <div class="col-md-7">
+            @Html.TextBoxFor(X => X.PhoneNo)
+        </div>
+    </div>
+        
+    <div>
+        <input type="submit" class="btn btn-success" value="Save Details" name="SavePersonDetails" />
+    </div>
+
+</form>

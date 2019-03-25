@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_03", "24_03\24_03.csproj", "{CD7E746A-534D-43AD-B451-FEB68476AD07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_03", "25_03\25_03.csproj", "{5223353F-89B7-4216-A43E-20165718FF05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManager", "PersonManager\PersonManager.csproj", "{20994E16-87D8-4327-B245-F73D920446CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD7E746A-534D-43AD-B451-FEB68476AD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7E746A-534D-43AD-B451-FEB68476AD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7E746A-534D-43AD-B451-FEB68476AD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7E746A-534D-43AD-B451-FEB68476AD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5223353F-89B7-4216-A43E-20165718FF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5223353F-89B7-4216-A43E-20165718FF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5223353F-89B7-4216-A43E-20165718FF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5223353F-89B7-4216-A43E-20165718FF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20994E16-87D8-4327-B245-F73D920446CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20994E16-87D8-4327-B245-F73D920446CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20994E16-87D8-4327-B245-F73D920446CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20994E16-87D8-4327-B245-F73D920446CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
